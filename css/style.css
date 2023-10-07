@@ -1,0 +1,54 @@
+/* order.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #b92c2c;
+    color: #ffffff;
+    text-align: left;
+    padding: 20px;
+    padding-left: 50px;
+    font-size: 30px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+main {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #e79912;
+}
+
+form label {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+select, input[type="number"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #492edf;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
